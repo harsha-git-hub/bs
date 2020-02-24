@@ -1,0 +1,51 @@
+ <html>
+	<head>
+		<title>modal</title>
+		<link href="dist/css/bootstrap.css" rel="stylesheet">
+		<script src="dist/js/jquery.min.js"></script>
+		<script src="dist/js/bootstrap.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-4">
+				
+				</div>
+				<div class="col-sm-4">
+					<button type="button" class="btn btn-primary"
+					data-toggle="modal" data-target="#mymodal">open modal</button>				
+				</div>
+				<div class="col-sm-4">
+				    <button type="button" class="btn btn-success" data-toggle="collapse"
+					data-target="#mydiv">collspase effect</button>
+					<div class="collapse" id="mydiv">
+						<div class="media">
+							<div class="media-left">
+								<img src="1.jpg" height="100px" width="100px">
+							</div>
+							<div class="media-body">
+							jkljsldkhsdshsdhlhdshhdlsdldsdslhhsslsd
+							jkljsldkhsdshsdhlhdshhdlsdldsdslhhsslsd
+							jkljsldkhsdshsdhlhdshhdlsdldsdslhhsslsd
+							dldsldssd
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--------row end ---->
+			<div class="modal fade" id="mymodal">
+				<div class="modal-dialog">
+				 <div class="modal-content">
+					<div class="modal-header">
+						<a href="#" data-dismiss="modal" class="colse">&times;</a>
+					</div>
+					<div class="modal-body"></div>
+					<div class="modal-footer">
+						<button class="btn btn-danger" data-dismiss="modal">close</button>
+					</div>
+				 </div><!--------modal-content-->
+			    </div><!------modal-dialog---->
+			</div><!------------modal fade closes----->
+		</div><!---------container-fluid---------->
+	</body>
+ </html>

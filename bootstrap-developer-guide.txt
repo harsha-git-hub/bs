@@ -1,0 +1,254 @@
+Bootstrap is 1st framework of html,css,javascript.it is designed for responsive webdesigning
+
+	Bootstrap is based on grid system
+		About grid system	
+			-> The grid system has divided all the devices into 4 types
+				1.xtra small
+				2.small device
+				3.medium device
+				4.large device
+-----------------------------------------------------------
+			Range of each device
+				1.xtra small (1px to 777px)
+				2.small device (778px to 990px)
+				3.medium device (991px to 1200px)
+				4.large device ( >1201px )
+------------------------------------------------------------
+	Grid system has given 12 classes for each device
+		Grid system allow to use any 12 class at a time.
+--------------------------------------------------------------------
+	While designing a project using bootstrap follow the following classes
+		xtra small device
+			col-xs-1
+			col-xs-2
+			col-xs-3
+			col-xs-4
+			col-xs-5
+			col-xs-6
+			col-xs-7
+			col-xs-8
+			col-xs-9
+			col-xs-10
+			col-xs-11
+			col-xs-12
+		-----------------------------------------------------------------------------
+		Small Device
+			col-sm-1
+			col-sm-2
+			col-sm-3
+			col-sm-4
+			col-sm-5
+			col-sm-6
+			col-sm-7
+			col-sm-8
+			col-sm-9
+			col-sm-10
+			col-sm-11
+			col-sm-12
+		-----------------------------------------------------------------------------------
+		Medium Device
+			col-md-1
+			col-md-2
+			col-md-3
+			col-md-4
+			col-md-5
+			col-md-6
+			col-md-7
+			col-md-8
+			col-md-9
+			col-md-10
+			col-md-11
+			col-md-12
+		-----------------------------------------------------------------------------------
+		Large Device 
+			col-lg-1
+			col-lg-2
+			col-lg-3
+			col-lg-4
+			col-lg-5
+			col-lg-6
+			col-lg-7
+			col-lg-8
+			col-lg-9
+			col-lg-10
+			col-lg-11
+			col-lg-12
+-------------------------------------------------------------------------------------------
+		while creating a page using bootstrap follow the steps
+			1.Link the bootstrap.css in head section
+			2.Follow body tag
+			3.Inside body follow the below classes
+				a.container (it has some gap from left & right)
+				b.container-fluid (it has no gap,it occupies 100%)
+			4.Inside container of container-fluid follow the class as
+				a.row
+			NOTE : height is auto,width is 100% for row class
+			5.Inside row follow columns (either of 12 classes from given 48)
+=================================================================================================
+	Bootstrap classes for background
+		bg-success
+		bg-danger
+		bg-info
+		bg-warning
+		well
+		jumbotron
+---------------------------------------------------------------------------
+	Bootstrap class for image
+		img-responsive
+		img-circle
+		img-rounded
+		img-thumbnail
+----------------------------------------------------------------------------
+	For alert message
+		alert-info
+		alert-success
+		alert-danger
+		alert-warning
+---------------------------------------------------------------------------
+	For Media Object
+		media
+		media-left
+			media-object
+		media-right
+			media-heading
+-----------------------------------------------------------------------------
+	For pagination
+		pager
+		pagination
+---------------------------------------------------------------------------------
+	For button
+		btn
+		btn-primary
+		btn-success
+		btn-danger
+		btn-warning
+		btn-info
+		btn-default
+	For button size
+		btn-sm
+		btn-md
+		btn-lg
+		btn-block
+---------------------------------------------------------------------------------
+	For left navigation
+		list-group
+		list-group-item
+		active
+---------------------------------------------------------------------------------
+	For Table
+		table
+		table-bordered
+		table-hover
+	For tr
+		active
+		success
+		danger
+		warning
+		info
+--------------------------------------------------------------------------------------
+	For top navigation
+		nav
+		nav-tabs
+	-----------------
+		nav
+		nav-pills
+-----------------------------------------------------------------------------------------
+	For panel
+		panel
+		panel-heading
+		panel-body
+		panel-footer
+		panel-primary
+		panel-success
+		panel-info
+		panel-warning
+		panel-default
+		panel-danger
+------------------------------------------------------------------------------------------		
+	Forms
+			form-control
+				input-sm
+				input-md
+				input-lg
+-----------------------------------------------------------------------------------------------		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+
+
+
+
+
+
+			
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			

@@ -1,0 +1,154 @@
+<html>
+	<head>
+		<title>perfrom validation</title>
+		 <link rel="stylesheet" href="dist/css/bootstrap.css">
+	     <link rel="stylesheet" href="fa/css/all.css">
+		 <script>
+			function validate()
+            {
+           
+                var Name=document.getElementById("fname").value;
+                var email=document.getElementById("email").value;
+                var mobile=document.getElementById("mobile").value;
+                var city=document.getElementById("city").value;
+                var state=document.getElementById("state").value;
+                var address=document.getElementById("address").value;
+                var qualifica=document.getElementById("qualif").value;
+                var experics=document.getElementById("expri").value;
+                var designation=document.getElementById("design").value;
+                var male=document.getElementById("male").checked;
+                var female=document.getElementById("female").checked;
+                var chk=document.getElementById("chk1").checked;
+				
+                var status=true;
+                
+                name=name.trim();
+                email=email.trim();
+                mobile=mobile.trim();
+                pass=pass.trim();
+                conpass=conpass.trim();
+                address=address.trim();
+				
+
+            }
+		 </script>
+	</head>
+	<body>
+		<div class="container">
+		   <div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-10">
+				  <div class="panel-body">
+					<div class="row form-group">
+						<div class="col-md-1">
+						 <label>Name</label>
+						</div>
+						<div class="col-md-3">
+							<input type="text" id="fname" class="form-control" placeholder="Enter yor name">
+						</div>
+						
+						<div class="col-md-1">
+						 <label>email</label>
+						</div>
+						<div class="col-md-3">
+							<input type="text" class="form-control" id="email" placeholder="Enter yor email">
+						</div>
+						<div class="col-md-1">
+						 <label>moblie</label>
+						</div>
+						<div class="col-md-3">
+							<input type="text" class="form-control" id="moblie" placeholder="Enter yor moblie no">
+						</div>
+						
+					</div>
+					<div class="row form-group">
+						<div class="col-md-1">
+						 <label>city</label>
+						</div>
+						<div class="col-md-3">
+					
+							<select class="form-control" id="city" >
+								<option>choose city</option>
+								<option>chennai</option>
+								<option>chennai</option>
+								<option>chennai</option>
+								<option>chennai</option>
+							</select>
+						</div>
+						
+						<div class="col-md-1">
+						 <label>state</label>
+						</div>
+						<div class="col-md-3">
+							<select class="form-control" id="state">
+								<option>choose state</option>
+								<option>Andhra Pradesh</option>
+								<option>Karnataka</option>
+								<option>Tamilnadhu</option>
+								<option>Telengana</option>
+							</select>
+						</div>
+						<div class="col-md-1">
+						 <label>address</label>
+						</div>
+						<div class="col-md-3">
+							<textarea class="form-control" id="address"></textarea>
+						</div>
+						
+					</div>
+						<div class="row form-group">
+						<div class="col-md-1">
+						 <label>Qualifica</label>
+						</div>
+						<div class="col-md-3">
+							<input type="text"  id="qualifi" class="form-control" placeholder="Enter your Qualification">
+						</div>
+						
+						<div class="col-md-1">
+						 <label>Experices</label>
+						</div>
+						<div class="col-md-3">
+							<input type="text"  id="experi" class="form-control" placeholder="Enter your experience">
+						</div>
+						<div class="col-md-1">
+						 <label>designation</label>
+						</div>
+						<div class="col-md-3">
+							<input type="text" id="design" class="form-control" placeholder="Enter your moblie desi">
+						</div>
+						
+					</div>
+					<div class="row form-group">
+					  <div class="col-md-1">
+						<label>Gender</label>
+					  </div>
+					  <div class="col-md-4">
+							<input type="radio">male
+							<input type="radio">female
+							
+					  </div>
+					   <div class="col-md-1">
+						<label>Internet</label>
+					   </div>
+					    <div class="col-md-5">
+							<input type="checkbox">Reading
+							<input type="checkbox">writing
+							<input type="checkbox">signing
+							
+					  </div>
+					  
+					</div>
+					<div class="row form-group">
+						<div class="text-center">
+							<button>Register</button>
+							<button>clear</button>
+							
+						</div>
+					</div>
+				  </div>
+				</div>
+				<div class="col-md-1"></div>
+		   </div>
+		</div>
+	</body>
+</html>
